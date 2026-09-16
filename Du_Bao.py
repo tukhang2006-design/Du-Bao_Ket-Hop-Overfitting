@@ -15,7 +15,7 @@ def load_csv(filename):
                 data.append([float(val) for val in row])
     return headers, data
 
-csv_filename = "house_price_data.csv"
+csv_filename = "Du_Bao_Gia_Nha.csv"
 print(f"[*] Đang đọc file '{csv_filename}'...")
 headers, data = load_csv(csv_filename)
 print(f"[+] Đọc thành công! Tổng cộng {len(data)} dòng dữ liệu.")
